@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7453eecf65852ef4c89abd040fd23460, type: 3}
+  m_Name: WeaponData
+  m_EditorClassIdentifier: 
+  rangedWeapons:
+  - name: Pitchfork
+    weapon: {fileID: 4646731399757976265, guid: 3c77d608e409128469469b8aaed76229, type: 3}
+    bulletPrefab: {fileID: 2440351575274306076, guid: 4e1acbed85b2dce4e9f1a04e23019c60, type: 3}
+    damage: 5
+    maxPenatration: 1
+    attackRate: 1.6
+    attackRange: 10
+    knockbackDistance: 0.5
+    muzzleVelocity: 20
+    intervalBurstRate: 0
+    bulletBusrtQuantity: 0
+  - name: Pistol
+    weapon: {fileID: 589878757346374585, guid: 525290fe19625e24995eb40a2ed84a1b, type: 3}
+    bulletPrefab: {fileID: 3238277668882613947, guid: 1a9ff4a0492c47e44b5d0e83f3d9c4a5, type: 3}
+    damage: 3
+    maxPenatration: 1
+    attackRate: 1.4
+    attackRange: 10
+    knockbackDistance: 0.5
+    muzzleVelocity: 20
+    intervalBurstRate: 0.1
+    bulletBusrtQuantity: 3
+  - name: Riffle
+    weapon: {fileID: -7343966341337588446, guid: dc312ecbe64ad164c9a4bdc1160f4c45, type: 3}
+    bulletPrefab: {fileID: 3238277668882613947, guid: 1a9ff4a0492c47e44b5d0e83f3d9c4a5, type: 3}
+    damage: 3
+    maxPenatration: 1
+    attackRate: 1.4
+    attackRange: 10
+    knockbackDistance: 0.5
+    muzzleVelocity: 20
+    intervalBurstRate: 0.1
+    bulletBusrtQuantity: 3
+  meleeWeapons:
+  - name: Shovel
+    weapon: {fileID: 8294248312039085748, guid: 28cdf3d2c8ec8fe4291ee44cc92ec946, type: 3}
+    damage: 10
+    knockbackDistance: 1
+    attackRate: 1
+    attackRange: 0.7

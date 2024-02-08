@@ -1,0 +1,37 @@
+{
+  "weapons": [
+    {
+      "name": "Pitchfork",
+      "damage": 5,
+      "maxPenatration": 1,
+      "attackRate": 1.6,
+      "attackRange": 10.0,
+      "knockbackDistance": 0.5,
+      "muzzleVelocity": 20.0,
+      "intervalBurstRate": 0.0,
+      "bulletBusrtQuantity": 0
+    },
+    {
+      "name": "Pistol",
+      "damage": 3,
+      "maxPenatration": 1,
+      "attackRate": 1.4,
+      "attackRange": 10.0,
+      "knockbackDistance": 0.5,
+      "muzzleVelocity": 20.0,
+      "intervalBurstRate": 0.1,
+      "bulletBusrtQuantity": 3
+    },
+    {
+      "name": "Riffle",
+      "damage": 3,
+      "maxPenatration": 1,
+      "attackRate": 1.4,
+      "attackRange": 10.0,
+      "knockbackDistance": 0.5,
+      "muzzleVelocity": 20.0,
+      "intervalBurstRate": 0.1,
+      "bulletBusrtQuantity": 3
+    }
+  ]
+}
